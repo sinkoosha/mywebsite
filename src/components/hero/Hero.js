@@ -1,5 +1,5 @@
 import React from "react";
-import sina from "../../../public/img/sinaKoosha.jpeg";
+
 import Image from "next/image";
 const Hero = () => {
   return (
