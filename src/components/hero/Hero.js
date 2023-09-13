@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
       <div className=" w-full flex-1 h-screen bg-white">
         <img
-          src="/img/sinaKoosha.jpeg" // Path to the image in the public directory
+          src="img/sinaKoosha.jpeg" // Path to the image in the public directory
           alt="My Image"
         />
       </div>
