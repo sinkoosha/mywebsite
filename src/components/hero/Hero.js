@@ -1,12 +1,14 @@
 import React from "react";
 import sina from "./img/sinakoosha.jpg";
 import Image from "next/image";
+import PCards from "../Projects/Cards/Cards";
+import ECards from "../experince/Cards/Cards";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row h-screen">
+    <div className="flex flex-col md:flex-col h-screen w-4/5  h-screen md:overflow-scroll overflow-visible m-auto">
       <div className="bg-white w-full flex-1 gap-2">
-        <div className="mx-32 sm:w-full">
+        <div className=" sm:w-full">
           <h1 className="text-4xl font-bold mt-16 text-left">SinaKoosha</h1>
           <p className="text-left mt-2">
             Front-End Developer with expertise in React, Redux, Next.js, and
@@ -45,13 +47,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex-1 h-screen bg-white">
-        <Image
-          src={sina} // Path to the image in the public directory
-          alt="My Image"
-          // Use this to make the image cover the entire container
-        />
-      </div>
+      <PCards />
+      <ECards />
     </div>
   );
 };
