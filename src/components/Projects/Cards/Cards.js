@@ -2,6 +2,7 @@ import React from "react";
 import MockLand from "../Card/mockLand";
 import RoyalTiti from "../Card/royaltiti";
 import DevMentor from "../Card/DevMentor";
+import AA from "../Card/AAdesign";
 
 function Cards() {
   return (
@@ -13,6 +14,7 @@ function Cards() {
         <div className=" w-full  flex-col flex gap-5 ">
           <MockLand />
           <DevMentor />
+          <AA />
           <RoyalTiti />
         </div>
       </div>

@@ -3,8 +3,8 @@ import coverImage from "../../../public/image/cover.jpg";
 import Image from "next/image";
 function SideBar() {
   return (
-    <div className=" md:w-1/5 w-full h-full  bg-gray-600 h-screen mr-4 bg-gray-700 ">
-      <div className=" pb-6 w-full justify-center items-center overflow-hidden md:max-w-sm  shadow-sm mx-auto">
+    <div className=" md:w-1/5 w-full   bg-gray-600  mr-4 bg-gray-700 ">
+      <div className=" pb-6 w-full justify-center items-center  md:max-w-sm  shadow-sm mx-auto">
         <div className="relative h-40">
           <img
             className="absolute object-cover"
@@ -20,7 +20,9 @@ function SideBar() {
           />
         </div>
         <div className="mt-16">
-          <h1 className="text-lg text-center font-semibold">sinaKoosha</h1>
+          <h1 className="text-lg text-center font-semibold z-30 relative sm:text-white">
+            sinaKoosha
+          </h1>
         </div>
         <div className="mt-6 pt-3 flex flex-wrap mx-6 border-t">
           <div className="text-xs mr-2 my-1 uppercase tracking-wider border px-2 text-gray-100 border-gray-800 hover:bg-gray-600 hover:text-white-100 cursor-default cursor-pointer">
@@ -70,17 +72,14 @@ function SideBar() {
           </a>
         </div>
       </div>
-      <aside
-        class="  transition-transform -translate-x-full sm:translate-x-0"
-        aria-label="Sidebar"
-      >
-        <a
-          href="/doc/sinakoosha.pdf"
-          className=" px-5 py-2 border-gray-200 border-spacing-2 border  text-gray-200 hover:text-gray-300 hover:border-gray-300"
-        >
-          Download CV
-        </a>
-        <div class="h-full px-3 py-4 overflow-y-auto">
+      <aside class="   " aria-label="Sidebar">
+        <div class="h-full px-3 py-4 h-screen">
+          <a
+            href="/doc/sinakoosha.pdf"
+            className=" px-5 py-2 border-gray-200 border-spacing-2 border  text-gray-200 hover:text-gray-300 hover:border-gray-300"
+          >
+            Download CV
+          </a>
           {/* <ul class="space-y-2 font-medium">
             <li>
               <a

@@ -6,7 +6,7 @@ import ECards from "../experince/Cards/Cards";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-col h-screen w-4/5  h-screen md:overflow-scroll overflow-visible m-auto">
+    <div className="flex flex-col md:flex-col    w-4/5  mb-10  ">
       <div className="bg-white w-full flex-1 gap-2">
         <div className=" sm:w-full">
           <h1 className="text-4xl font-bold mt-16 text-left">SinaKoosha</h1>
