@@ -1,6 +1,7 @@
 import React from "react";
 import coverImage from "../../../public/image/cover.jpg";
 import Image from "next/image";
+import { FaBlog } from "react-icons/fa";
 function SideBar() {
   return (
     <div className=" md:w-1/5 w-full   bg-gray-600  mr-4 bg-gray-700 ">
@@ -33,12 +34,6 @@ function SideBar() {
           </div>
           <div className="text-xs mr-2 my-1 uppercase tracking-wider border px-2 text-gray-100 border-gray-800 hover:bg-gray-600 hover:text-white-100 cursor-default cursor-pointer">
             nextJs
-          </div>
-          <div className="text-xs mr-2 my-1 uppercase tracking-wider border px-2 text-gray-100 border-gray-800 hover:bg-gray-600 hover:text-white-100 cursor-default cursor-pointer">
-            TailwindCSS
-          </div>
-          <div className="text-xs mr-2 my-1 uppercase tracking-wider border px-2 text-gray-100 border-gray-800 hover:bg-gray-600 hover:text-white-100 cursor-default cursor-pointer">
-            React
           </div>
         </div>
         <div className="mx-3 mt-2 flex justify-center align-middle gap-2">
@@ -80,32 +75,13 @@ function SideBar() {
           >
             Download CV
           </a>
-          {/* <ul class="space-y-2 font-medium">
-            <li>
-              <a
-                href="#"
-                class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white"
-              >
-                <span class="ms-3">About</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white"
-              >
-                <span class="ms-3">About</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white "
-              >
-                <span class="ms-3">About</span>
-              </a>
-            </li>
-          </ul> */}
+          <a
+            href="https://virgool.io/@sinkoosha"
+            class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white border  mt-5"
+          >
+            <FaBlog />
+            <span class="ms-3">Blog</span>
+          </a>
         </div>
       </aside>
     </div>
