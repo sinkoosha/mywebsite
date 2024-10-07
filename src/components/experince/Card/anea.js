@@ -26,4 +26,4 @@ const ANEA = () => {
   );
 };
 
-export default WorkCard;
+export default ANEA;
