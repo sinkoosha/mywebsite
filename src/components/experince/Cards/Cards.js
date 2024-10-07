@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../Card/Sam";
 import ANEA from "../Card/anea";
 
-ANEA 
 function Cards() {
   return (
     <div className="flex bg-white flex-col md:flex-row pt-20  ">
