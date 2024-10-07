@@ -11,6 +11,7 @@ function Cards() {
           EXPERIENCE
         </h2>
         <div className=" sm:w-full flex gap-5 flex-wrap    ">
+          <ANEA />
           <Card />
         </div>
       </div>
