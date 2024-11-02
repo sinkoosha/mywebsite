@@ -14,9 +14,7 @@ const MockLand = () => {
             <a href="https://github.com/PersiaJS/mockland.dev">
               <FaGithub />
             </a>
-            <a href="https://mockland.dev/">
-              <FaGlobe />
-            </a>
+        
           </span>
           <p>
             MockLand.dev is open-source project designed to streamline API

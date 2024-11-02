@@ -11,11 +11,13 @@ function Cards() {
         <h2 className="text-3xl font-bold text-left text-gray-500 mb-10 mx-4 text-left w-full">
           My projects
         </h2>
-        <div className=" w-full  flex-col flex gap-5 ">
+        <div className=" w-full  flex-col flex gap-5 "> 
+          <RoyalTiti />
+
           <MockLand />
           <DevMentor />
-          <AA />
-          <RoyalTiti />
+          
+         
         </div>
       </div>
     </div>

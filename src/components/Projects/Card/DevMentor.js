@@ -14,9 +14,7 @@ const DevMentor = () => {
             <a href="https://github.com/PersiaJS/devmentor-frontend">
               <FaGithub />
             </a>
-            <a href="https://devmentor.net/">
-              <FaGlobe />
-            </a>
+          
           </span>
           <p>
             DevMentor is an impactful open-source initiative centered around
