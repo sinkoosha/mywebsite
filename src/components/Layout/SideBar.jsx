@@ -42,7 +42,7 @@ function SideBar() {
       <aside class="   " aria-label="Sidebar">
         <div class="h-full px-3 py-4 h-screen">
           <a
-            href="/doc/sinakoosha"
+            href="/doc/sinakoosha.pdf"
             className=" px-5 py-2 border-gray-200 border-spacing-2 border  text-gray-200 hover:text-gray-300 hover:border-gray-300"
           >
             Download CV
