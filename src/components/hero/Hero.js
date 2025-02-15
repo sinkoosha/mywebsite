@@ -20,6 +20,10 @@ const Hero = () => {
             <div className="pr-4">
               <h3 className="text-3xl font-bold mt-2 mb-1 text-left">SKILLS</h3>
               <p className="text-left">
+                WordPress development (theme customization, plugin development,
+                etc.)
+              </p>
+              <p className="text-left">
                 Front-End Development: React, Redux, Next.js, JavaScript ES6+
               </p>
               <p className="text-left">
